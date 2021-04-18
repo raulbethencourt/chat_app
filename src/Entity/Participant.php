@@ -2,13 +2,13 @@
 
 namespace App\Entity;
 
-use App\Repository\ConversationRepository;
+use App\Repository\ParticipantRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass=ConversationRepository::class)
+ * @ORM\Entity(repositoryClass=ParticipantRepository::class)
  */
-class Conversation
+class Participant
 {
     /**
      * @ORM\Id
@@ -16,8 +16,6 @@ class Conversation
      * @ORM\Column(type="integer")
      */
     private $id;
-
-    // TODO 10:40
 
     public function getId(): ?int
     {

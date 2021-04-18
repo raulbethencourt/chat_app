@@ -127,6 +127,18 @@
             "config/packages/sensio_framework_extra.yaml"
         ]
     },
+    "symfony/apache-pack": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "71599f5b0fdeeeec0fb90e9b17c85e6f5e1350c1"
+        },
+        "files": [
+            "public/.htaccess"
+        ]
+    },
     "symfony/cache": {
         "version": "v5.2.6"
     },
@@ -159,6 +171,9 @@
         "files": [
             "config/packages/dev/debug.yaml"
         ]
+    },
+    "symfony/debug-pack": {
+        "version": "v1.0.9"
     },
     "symfony/dependency-injection": {
         "version": "v5.2.6"
